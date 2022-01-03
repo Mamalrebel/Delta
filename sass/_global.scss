@@ -1,0 +1,24 @@
+body {
+    direction: rtl;
+    font-family: rezvan;
+    background-color: #aaa9a9;
+}
+.wrapper {
+    display: none;
+}
+.p-color {
+    color: $primary !important; 
+}
+.s-color {
+    color: $secondary !important; 
+} 
+
+.telegram {
+    color: #3b3bf1;
+}
+.instagram {
+    color: #f840ef;
+}
+.whatsapp {
+    color: #1acc38;
+}

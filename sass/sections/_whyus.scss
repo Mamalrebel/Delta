@@ -1,0 +1,64 @@
+.s-small-brand {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.s-large-brand {
+    font-size: 3rem;
+    
+}
+.why-us {
+    background: linear-gradient( rgba(0,0,0, 0.5 ),rgba(0,0,0, 0.5 ) ) ,url(../assets/images/whyus-backround.png) no-repeat center/cover;
+}
+
+.khadamat-primery {
+    background-color: $primary;
+    color: $secondary;
+    text-align: right;
+    cursor: pointer;
+    transition: all, 0.5s;
+    padding: 1rem;
+    border-radius: 10%;
+    &:hover {
+        background-color: $secondary;
+        color: $primary;
+        .khadamat-icon {
+            color: rgba($color: $primary, $alpha: 0.7);
+        }
+    }    
+    .khadamat-icon {
+        text-align: left;
+        font-size: 4rem;
+        display: block;
+        color: rgba( $secondary, 0.7);
+    }
+}
+.khadamat-secondary {
+    background-color: $secondary;
+    color: $primary;
+    text-align: right;
+    cursor: pointer;
+    transition: all, 0.5s;
+    padding: 1rem;
+    border-radius: 10%;
+    &:hover {
+        background-color: $primary;
+        color: $secondary;
+        .khadamat-icon {
+            color: rgba($color: $secondary, $alpha: 0.7);
+        }
+    }   
+    .khadamat-icon {
+        text-align: left;
+        font-size: 4rem;
+        display: block;
+        color: rgba( $primary, 0.7);
+    } 
+}
+.khadamat-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.khadamat-text {
+    font-weight: 400;
+}
+

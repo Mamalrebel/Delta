@@ -1,0 +1,33 @@
+.my-btn {
+    padding: 0.9375rem 1.25rem 0.9375rem  4.35rem;
+    font-weight: 500;
+    margin: 0;
+    border: .1rem solid $primary;
+    background-color: $white;
+    position: relative;
+    transition: all .3s;
+    text-align: center;
+    font-family: rezvan;
+    span {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        i {
+            font-size: 1.5rem;
+            color: $white;
+            line-height: 2.5rem;
+        }
+    }
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        span {
+            background-color: $secondary;
+        }
+    }
+}

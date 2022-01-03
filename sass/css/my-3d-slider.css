@@ -1,0 +1,98 @@
+.my-3d-slider {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background: -webkit-gradient(linear, left top, right top, from(#234467), to(#020230));
+  background: linear-gradient(to right, #234467, #020230);
+}
+
+.my-3d-slider .m-card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 40px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.m-card:hover .box {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* IMP*/
+}
+
+.contentBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2f2f2f;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.contentBx div {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  padding: 20px;
+  background: linear-gradient(45deg, #3d3b3b, #1a0717);
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+  color: white;
+}
+
+.contentBx div h2 {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.contentBx div p {
+  color: white;
+  font-size: 16px;
+}

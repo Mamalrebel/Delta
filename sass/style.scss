@@ -1,0 +1,30 @@
+@font-face {
+    font-family: rezvan;
+    src: url(../assets/font/razvan/A.Rezvan.ttf);
+}
+@import "./componet/variables";
+@import "./componet/custom";
+@import "./global";
+@import "./componet/buttoms";
+
+
+@import "./sections/loader";
+@import "./sections/navbar";
+@import "./sections/welcome";
+@import "./sections/my-homes";
+@import "./sections/whyus";
+@import "./sections/about";
+@import "./sections/my-3d-slider.scss";
+@import "./sections/call-us";
+@import "./sections/my-slider.scss";
+@import "./sections/footer" ;
+
+
+
+
+
+
+
+
+
+
